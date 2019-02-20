@@ -542,6 +542,12 @@
         <members>EmailMessage.TextBody</members>
         <members>EmailMessage.ToAddress</members>
         <members>EmailMessage.ValidatedFromAddress</members>
+        <members>Employee2__c.Emp2_Salary__c</members>
+        <members>Employee2__c.Employee1__c</members>
+        <members>Employee3__c.Employee2__c</members>
+        <members>Employee4__c.Employee3__c</members>
+        <members>Employee__c.Emp1_Salary__c</members>
+        <members>Employee__c.Manager__c</members>
         <members>Event.ActivityDate</members>
         <members>Event.ActivityDateTime</members>
         <members>Event.Attendees</members>
@@ -615,6 +621,7 @@
         <members>Macro.Name</members>
         <members>Macro.OwnerId</members>
         <members>Macro.StartingContext</members>
+        <members>Manager__c.Salary__c</members>
         <members>Opportunity.AccountId</members>
         <members>Opportunity.Amount</members>
         <members>Opportunity.CampaignId</members>
@@ -852,6 +859,10 @@
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
         <members>EmailMessage</members>
+        <members>Employee2__c</members>
+        <members>Employee3__c</members>
+        <members>Employee4__c</members>
+        <members>Employee__c</members>
         <members>Event</members>
         <members>ExchangeUserMapping</members>
         <members>Favorite__c</members>
@@ -864,6 +875,7 @@
         <members>Macro</members>
         <members>MacroAction</members>
         <members>MacroInstruction</members>
+        <members>Manager__c</members>
         <members>Opportunity</members>
         <members>OpportunityCompetitor</members>
         <members>OpportunityContactRole</members>
@@ -912,6 +924,7 @@
         <members>Heat_Map</members>
         <members>Heat_Map_Mock</members>
         <members>House_Explorer</members>
+        <members>Manager__c</members>
         <members>Property_Explorer1</members>
         <members>Property__c</members>
         <members>Sample_Data_Import</members>
@@ -1009,6 +1022,10 @@
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
+        <members>Employee2__c-Employee2 Layout</members>
+        <members>Employee3__c-Employee3 Layout</members>
+        <members>Employee4__c-Employee4 Layout</members>
+        <members>Employee__c-Employee1 Layout</members>
         <members>Event-Event Layout</members>
         <members>Favorite__c-Favorite Layout</members>
         <members>Global-Global Layout</members>
@@ -1018,6 +1035,7 @@
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
         <members>Macro-Macro Layout</members>
+        <members>Manager__c-Manager Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
         <members>Opportunity-Opportunity %28Support%29 Layout</members>
@@ -1084,6 +1102,7 @@
         <members>Lead.TodaysLeads</members>
         <members>Lead.ViewCustom1</members>
         <members>Lead.ViewCustom2</members>
+        <members>Manager__c.All</members>
         <members>Opportunity.AllOpportunities</members>
         <members>Opportunity.ClosingNextMonth</members>
         <members>Opportunity.ClosingThisMonth</members>
@@ -1182,6 +1201,7 @@
     </types>
     <types>
         <members>ApexDevNet</members>
+        <members>AutoRABIT_Website</members>
         <members>Einstein_Vision</members>
         <members>LIFX</members>
         <members>PushServer</members>
@@ -1347,6 +1367,7 @@
         <name>WebLink</name>
     </types>
     <types>
+        <members>Case.Email_Alert_sent_to_Owner</members>
         <members>Case.Email_Alert_sent_to_Owner_of_Contact</members>
         <members>Case.Notify_Sales_VP_of_the_ARR</members>
         <name>WorkflowAlert</name>
