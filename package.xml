@@ -67,6 +67,10 @@
         <name>AppMenu</name>
     </types>
     <types>
+        <members>Case.Approval_Process_Case</members>
+        <name>ApprovalProcess</name>
+    </types>
+    <types>
         <members>Case.Standard</members>
         <members>Lead.Standard</members>
         <name>AssignmentRule</name>
@@ -960,6 +964,8 @@
         <members>Opportunity_Status_Change</members>
         <members>Post_Price_Changes_to_Slack</members>
         <members>Price_Change_Push_Notification</members>
+        <members>Sales_Flow</members>
+        <members>Sales_Flow_Handler</members>
         <name>Flow</name>
     </types>
     <types>
@@ -967,6 +973,8 @@
         <members>Opportunity_Status_Change</members>
         <members>Post_Price_Changes_to_Slack</members>
         <members>Price_Change_Push_Notification</members>
+        <members>Sales_Flow</members>
+        <members>Sales_Flow_Handler</members>
         <name>FlowDefinition</name>
     </types>
     <types>
@@ -1337,5 +1345,19 @@
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
+    </types>
+    <types>
+        <members>Case.Email_Alert_sent_to_Owner_of_Contact</members>
+        <members>Case.Notify_Sales_VP_of_the_ARR</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
+        <members>Case.Email Notification</members>
+        <name>WorkflowRule</name>
+    </types>
+    <types>
+        <members>Case.No_Visit</members>
+        <members>Case.Task_Test</members>
+        <name>WorkflowTask</name>
     </types>
 </Package>
